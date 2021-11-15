@@ -1,0 +1,132 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "星宿UI-枫瑞博客网",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "专题分类"
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "文章搜索"
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/data/data",
+			"style": {
+				"navigationBarTitleText": "文章详情",
+				"navigationBarBackgroundColor":"#3482e2",
+				"navigationBarTextStyle":"white"
+			}
+		}, {
+			"path": "pages/category/categ_lisst",
+			"style": {
+				"navigationBarTitleText": "文章列表"
+			}
+		}, {
+			"path": "pages/friend/friend",
+			"style": {
+				"navigationBarTitleText": "友情小程序",
+				"navigationBarBackgroundColor": "@navBgColor"
+			}
+		}
+
+		, {
+			"path": "pages/tags/tags",
+			"style": {
+				"navigationBarTitleText": "知识星球"
+			}
+		}, {
+			"path": "pages/weblist/weblist",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/about/about",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/wxmore/wxmore",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/download/download",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "开源项目"
+            }
+            
+        }
+        ,{
+            "path" : "pages/questions/questions",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提交问题",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/questions/questions-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "问题列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "@navTxtStyle",
+		"backgroundColor": "@bgColor",
+		"navigationBarBackgroundColor": "@navBgColor",
+		"navigationBarTitleText": "枫瑞博客网"
+		
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "white",
+		"backgroundColor": "@bgColor",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabar/home.png",
+				"selectedIconPath": "static/tabar/home_h.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "static/tabar/catelog.png",
+				"selectedIconPath": "static/tabar/catelog_h.png",
+				"text": "专题"
+			}, {
+				"pagePath": "pages/search/search",
+				"iconPath": "static/tabar/res.png",
+				"selectedIconPath": "static/tabar/res_h.png",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/download/download",
+				"iconPath": "static/tabar/down.png",
+				"selectedIconPath": "static/tabar/down_h.png",
+				"text": "开源"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/tabar/my.png",
+				"selectedIconPath": "static/tabar/my_h.png",
+				"text": "我的"
+			}
+		]
+	}
+
+}
